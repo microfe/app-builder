@@ -1,0 +1,21 @@
+{
+  "short_name": "app-builder",
+  "name": "app-builder",
+  "icons": [
+    {
+      "src": "/static/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "orientation": "portrait",
+  "display": "fullscreen",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF"
+}

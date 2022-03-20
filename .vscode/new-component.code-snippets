@@ -1,0 +1,24 @@
+{
+  "New Component": {
+    "scope": "typescriptreact",
+    "prefix": "new-component",
+    "body": [
+      "import React from 'react';",
+      "",
+      "interface I${TM_FILENAME_BASE}Props {",
+      "",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE} = (props: React.PropsWithChildren<I${TM_FILENAME_BASE}Props>) => {",
+      "\tconst { } = props;",
+      "",
+      "\treturn (",
+      "\t\t<>",
+      "\t\t\t{props.children}",
+      "\t\t</>",
+      "\t);",
+      "};"
+    ],
+    "description": "New Component"
+  }
+}

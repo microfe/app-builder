@@ -1,0 +1,9 @@
+import React from 'react';
+
+export interface {{moduleContextInterface module}} {
+  readonly helloText: string;
+}
+
+export const {{modulePath module}} = '/{{ kebabCase module }}'; 
+
+export const {{pascalCase module}}Context = React.createContext<{{moduleContextInterface module}}>(null!);

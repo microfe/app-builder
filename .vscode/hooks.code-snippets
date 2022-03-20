@@ -1,0 +1,30 @@
+{
+  "useState": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "use-state",
+    "body": "const [${1:state}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState($0);"
+  },
+  "useEffect (mount)": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "use-effect",
+    "body": [
+      "React.useEffect(",
+      "\t() => {",
+      "\t$0",
+      "\t},",
+      "\t[]",
+      ");",
+    ],
+    "description": "React hooks: useEffect"
+  },
+  "useEffect": {
+    "scope": "typescriptreact",
+    "prefix": "use-effect-simple",
+    "body": [
+      "React.useEffect(() => {",
+      "\t$0",
+      "});",
+    ],
+    "description": "React hooks: useEffect simple"
+  }
+}

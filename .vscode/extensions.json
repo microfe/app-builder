@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "eg2.tslint",
+    "shinnn.stylelint",
+    "mike-co.import-sorter",
+    "tsugitta.create-index",
+    "jpoissonnier.vscode-styled-components",
+    "johnuphoff.vscode-styled-sort",
+    "editorconfig.editorconfig",
+    "coenraads.bracket-pair-colorizer-2"
+  ]
+}

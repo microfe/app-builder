@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    ".vscode/chrome/**": true
+  },
+  "files.watcherExclude": {
+    ".vscode/chrome/**": true
+  },
+  "html.format.extraLiners": "!",
+  "html.format.indentInnerHtml": true,
+  "search.exclude": {
+    "dist/**": true,
+    "node_modules": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimit",
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.sortConfiguration.joinImportPaths": false,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "[handlebars]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+  }
+}

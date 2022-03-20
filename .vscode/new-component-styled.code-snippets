@@ -1,0 +1,29 @@
+{
+  "New Component": {
+    "scope": "typescriptreact",
+    "prefix": "new-component-styled",
+    "body": [
+      "import React from 'react';",
+      "import styled from 'styled-components';",
+      "",
+      "const _${TM_FILENAME_BASE} = styled.div`",
+
+      "`;",
+      "",
+      "interface I${TM_FILENAME_BASE}Props {",
+      "",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE} = (props: React.PropsWithChildren<I${TM_FILENAME_BASE}Props>) => {",
+      "\tconst { } = props;",
+      "$0",
+      "\treturn (",
+      "\t\t<_${TM_FILENAME_BASE}>",
+      "\t\t\t{props.children}",
+      "\t\t</_${TM_FILENAME_BASE}>",
+      "\t);",
+      "};"
+    ],
+    "description": "New Component"
+  }
+}

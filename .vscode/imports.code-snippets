@@ -1,0 +1,18 @@
+{
+  "import-react": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "import-react",
+    "body": "import React from 'react';"
+  },
+  "import-classnames": {
+    "scope": "typescriptreact",
+    "prefix": "import-classnames",
+    "body": "import classNames from 'classnames';"
+  },
+  "import-scss-component": {
+    "scope": "typescriptreact",
+    "prefix": "import-scss-component",
+    "body": "import './${TM_FILENAME_BASE}.scss';",
+    "description": "React hooks: useEffect"
+  }
+}

@@ -1,0 +1,16 @@
+import { allowAnonymous, i18n, IApplicationRouteInfo } from 'libs/framework';
+
+import { {{ modulePath moduleDir }} } from '@/{{ moduleDir }}/configs';
+
+export const {{ pagePath page }} = `${ {{ modulePath moduleDir }} }/{{ kebabCase page }}`;
+
+export const {{ camelCase page }}Info: IApplicationRouteInfo = {
+  title: i18n('{{ titleCase page }}'),
+  path: {{ pagePath page }},
+  policies: [allowAnonymous],
+  exact: true
+};
+
+export const get{{ pascalCase page }}Url = () => {
+  return {{ pagePath page }};
+};

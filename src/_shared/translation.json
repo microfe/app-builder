@@ -1,0 +1,15 @@
+{
+  "en" : {
+    "Xin chào": "hello"
+  },
+  "vi" : {
+    "hello": "Xin chào",
+    "created at": "Thời gian tạo",
+    "created by": "Người tạo",
+    "last updated": "Lần sửa cuối",
+    "last updated by": "Người sửa cuối",
+    "delete": "Xóa",
+    "update": "Cập nhật",
+    "create": "Tạo mới"
+  }
+}

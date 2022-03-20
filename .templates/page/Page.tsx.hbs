@@ -1,0 +1,20 @@
+import { ApplicationPage } from 'libs/framework';
+import React from 'react';
+import styled from 'styled-components';
+
+const _{{ pageName page }} = styled.main`
+`;
+
+interface I{{pageName page}}State {
+
+}
+
+export class {{pageName page}} extends ApplicationPage<unknown, I{{pageName page}}State> {
+  public render() {
+    return (
+      <_{{ pageName page }} id="{{ pageName page }}">
+        Welcome to {{ pageName page }}
+      </_{{ pageName page }}>
+    );
+  }
+}

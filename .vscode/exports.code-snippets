@@ -1,0 +1,17 @@
+{
+  "export-func": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "export function",
+    "body": "export function ${TM_FILENAME_BASE}() {\t$0};"
+  },
+  "export-arrow": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "export const arrow",
+    "body": "export const ${TM_FILENAME_BASE} = () => {\t$0};"
+  },
+  "export-interface": {
+    "scope": "typescriptreact,typescript",
+    "prefix": "export interface",
+    "body": "export interface I${1:Interface} {\n\t$0\n}"
+  }
+}

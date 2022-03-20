@@ -1,0 +1,29 @@
+import React from 'react';
+import styled from 'styled-components';
+
+import { 
+  {{moduleLayoutBody module}},
+  {{moduleLayoutFooter module}},
+  {{moduleLayoutHeader module}},
+} from './{{kebabCase (moduleLayout module) }}';
+
+const _{{ moduleLayout module }} = styled.div`
+`;
+
+interface I{{ moduleLayout module }}Props {
+
+}
+
+export const {{ moduleLayout module }} = (props: React.PropsWithChildren<I{{ moduleLayout module }}Props>) => {
+  const { } = props;
+
+  return (
+    <_{{ moduleLayout module }} id="{{ moduleLayout module }}">
+      <{{moduleLayoutHeader module}} />
+      <{{moduleLayoutBody module}}>
+        {props.children}
+      </{{moduleLayoutBody module}}>
+      <{{moduleLayoutFooter module}} />
+    </_{{ moduleLayout module }}>
+  );
+};

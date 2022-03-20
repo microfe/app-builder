@@ -1,0 +1,6 @@
+  {
+      routeInfo: require('./{{ kebabCase page }}/{{ pageName page }}.shared').{{ camelCase page }}Info,
+      Page: React.lazy(() => import(/* webpackChunkName: "{{ kebabCase page }}" */ './{{ kebabCase page }}')
+        .then(o => ({default: o.{{ pageName page }} })))
+  }, /** {{ pageName page }} */
+];
